@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="10dp"
+    android:background="@drawable/ez_widget_bg">
+  <ImageView android:id="@+id/gauge" android:layout_width="match_parent" android:layout_height="0dp"
+      android:layout_weight="1" android:scaleType="fitCenter" android:contentDescription="Velocímetro"/>
+  <TextView android:id="@+id/pct" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:textColor="#FFFFFF" android:textSize="22sp" android:fontFamily="sans-serif-light"/>
+  <TextView android:id="@+id/spent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:textColor="#FFFFFF" android:textSize="13sp"/>
+  <TextView android:id="@+id/sub" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:textColor="#99FFFFFF" android:textSize="11sp"/>
+</LinearLayout>
